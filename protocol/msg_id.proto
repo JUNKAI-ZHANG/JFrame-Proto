@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package MsgId;
+
+enum MsgId {
+    MSG_ID_NONE = 0;
+    MSG_ID_PLAYER_LOGIN_REQ = 1; //@PlayerLoginReq;MsgIdPlayerLoginReq
+    MSG_ID_PLAYER_LOGIN_RSP = 2; //@PlayerLoginRsp;MsgIdPlayerLoginRsp
+}

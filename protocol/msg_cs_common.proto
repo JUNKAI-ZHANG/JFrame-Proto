@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package CSMessage;
+
+message PlayerLoginReq {
+    string username = 1;
+    string password = 2;
+}
+
+message PlayerLoginResp {
+    int32 error_code = 1;
+    string error_msg = 2;
+
+    int64 player_uid = 3;
+}
