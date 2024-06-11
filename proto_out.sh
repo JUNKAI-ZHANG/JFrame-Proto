@@ -1,4 +1,4 @@
-cd /root/JFrame/JFrame-Proto/protocol
+cd /root/CodeHome/JFrame/JFrame-Proto/protocol
 
 result=''
  
@@ -33,10 +33,10 @@ done
  
 ReadAllFileName
 
-cd /root/JFrame/src/proto
+cd /root/CodeHome/JFrame/JFrame-Server/src/proto
 rm -rf *.pb.cc
 rm -rf *.pb.h
  
-cd /root/JFrame/JFrame-Proto/protocol
+cd /root/CodeHome/JFrame/JFrame-Proto/protocol
 
-protoc --cpp_out=../../src/proto/ $result
+protoc --cpp_out=../../JFrame-Server/src/proto $result
