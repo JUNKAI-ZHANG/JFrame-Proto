@@ -4,6 +4,9 @@ package MsgId;
 
 enum MsgId {
     MSG_ID_NONE = 0;
-    MSG_ID_PLAYER_LOGIN_REQ = 1; //@PlayerLoginReq;MsgIdPlayerLoginReq
-    MSG_ID_PLAYER_LOGIN_RSP = 2; //@PlayerLoginRsp;MsgIdPlayerLoginRsp
+
+    MSG_ID_SERVER_FIRST_PACKAGE = 1;
+
+    MSG_ID_PLAYER_LOGIN_REQ = 10001; //@PlayerLoginReq;MsgIdPlayerLoginReq
+    MSG_ID_PLAYER_LOGIN_RSP = 10002; //@PlayerLoginRsp;MsgIdPlayerLoginRsp
 }
